@@ -1,4 +1,4 @@
-# fav2hash
+# Fav2Hash
 
 This is a simple script that is used to calculate the hash of any favicon, whether it is online or locally, and returns the string to be supplied to shodan to search using favicons, very useful in cases of searches on domains (for example behind Cloudflare).
 
