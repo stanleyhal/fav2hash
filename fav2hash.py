@@ -10,7 +10,7 @@ def fav2hash():
 		response = requests.get(url)
 		convertedData = base64.encodebytes(response.content).decode()
 		hash = mmh3.hash(convertedData)
-		print("\nHere's your mmh3 hash. Copy/paste this string into Shodan:\nhttp.favicon.hash:", hash)
+		print("\nHere's your mmh3 hash. Copy/paste this string into Shodan:\nhttp.favicon.hash:",hash)
 	elif question == "2":
 		localpath=input ("\nPlease insert the local path of the favicon, with the name and the extension:\n")
 		with open(localpath, 'rb') as image_file:
